@@ -4,13 +4,21 @@ import Timer from '@components/Timer'
 import { useEffect, useState } from 'react'
 
 const stretches = [
-  ["Calf", 40, true],
+  // Floor
+  ["Yoga seated", 90, false],
   ["Hamstring", 40, true],
   ["Hip Flexor", 40, true],
-  ["Yoga seated", 60, false],
+  
+  // Standing
+  ["Calf", 40, true],
+  
+  // Sitting
   ["Chest", 40, true],
   ["Shoulder", 40, true],
   ["Forearms", 40, true],
+  
+  // Done
+  ["Finished", 1, false],
 ];
 
 let currentStretch = -1;
